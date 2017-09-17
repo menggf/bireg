@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "PKG_CXXFLAGS= -I$(SHLIB_OPENMP_CXXFLAGS)\nPKG_CFLAGS = $(SHLIB_OPENMP_CFLAGS)\nPKG_LIBS = $(SHLIB_OPENMP_CFLAGS)\nCXX_STD=CXX11\n",
+    "created" : 1504335598235.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1287507727",
+    "id" : "B239699F",
+    "lastKnownWriteTime" : 1504306288,
+    "last_content_update" : 1504306288,
+    "path" : "~/Rpackage/bireg/src/Makevars.win",
+    "project_path" : "src/Makevars.win",
+    "properties" : {
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "makefile"
+}

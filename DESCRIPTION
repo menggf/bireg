@@ -1,0 +1,22 @@
+Package: bireg
+Type: Package
+Title: A tool to predict the transciptional regulation status in part of samples
+Version: 0.99.0
+Author: Guofeng Meng
+Maintainer: Guofeng Meng <menggf@gmail.com>
+Description: This tool is to predict the co-expression regulation that observed in part of patients
+License: GPL-3
+LazyData: TRUE
+SystemRequirements: GNU make
+Dependence:
+    R (>3.1.0)
+Imports:
+    Rcpp (>= 0.12.7),
+    parallel
+Suggests:
+  knitr
+LinkingTo: Rcpp
+biocViews: RNAseq
+RoxygenNote: 6.0.1
+NeedsCompilation: yes
+VignetteBuilder: knitr

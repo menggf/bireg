@@ -1,0 +1,248 @@
+[
+    {
+        "definitions" : [
+            {
+                "column" : 21,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/bcacpp.cpp",
+                "kind" : 6,
+                "line" : 20,
+                "name" : "bcacpp(Rcpp::NumericMatrix, Rcpp::IntegerVector, Rcpp::NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@bcacpp#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
+            }
+        ],
+        "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/bcacpp.cpp",
+        "file_last_write" : 1504335247
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 5,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 12,
+                "name" : "max_pos(T *, int)",
+                "parent_name" : "",
+                "usr" : "c:@FT@>1#Tmax_pos#*t0.0#I#"
+            },
+            {
+                "column" : 5,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 21,
+                "name" : "min_pos(T *, int)",
+                "parent_name" : "",
+                "usr" : "c:@FT@>1#Tmin_pos#*t0.0#I#"
+            },
+            {
+                "column" : 8,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 30,
+                "name" : "to_string(int)",
+                "parent_name" : "",
+                "usr" : "c:@F@to_string#I#"
+            },
+            {
+                "column" : 17,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 36,
+                "name" : "split(string, const string)",
+                "parent_name" : "",
+                "usr" : "c:@F@split#$@N@std@C@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@C@allocator>#C#1S0_#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 56,
+                "name" : "init(T *, int, T)",
+                "parent_name" : "",
+                "usr" : "c:@FT@>1#Tinit#*t0.0#I#S1_#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 60,
+                "name" : "merge(float *, int *, int, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@merge#*f#*I#I#I#I#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 99,
+                "name" : "merge(int *, int *, int, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@merge#*I#S0_#I#I#I#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 139,
+                "name" : "myorder(T *, int *, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@FT@>1#Tmyorder#*t0.0#*I#I#I#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 150,
+                "name" : "myorder2(T *, int *, int)",
+                "parent_name" : "",
+                "usr" : "c:@FT@>1#Tmyorder2#*t0.0#*I#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 160,
+                "name" : "pick(float *, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@pick#*f#I#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 167,
+                "name" : "spearman(float **, int, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@spearman#**f#I#I#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 181,
+                "name" : "newspearman(float **, int, int, int *, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@newspearman#**f#I#I#*I#I#I#"
+            },
+            {
+                "column" : 5,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 211,
+                "name" : "myremoval(int, int, int, float **, int, float, int *, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@myremoval#I#I#I#**f#I#f#*I#I#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 248,
+                "name" : "vote(short **, int *, int, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@vote#**S#*I#I#I#I#"
+            },
+            {
+                "column" : 5,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 293,
+                "name" : "connectivity(short **, int *, int, float, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@connectivity#**S#*I#I#f#I#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 316,
+                "name" : "iscore(float **, float *, int, int, vector<int> &, float)",
+                "parent_name" : "",
+                "usr" : "c:@F@iscore#**f#S1_#I#I#&$@N@std@C@vector>#I#$@N@std@C@allocator>#I#f#"
+            },
+            {
+                "column" : 14,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 330,
+                "name" : "writeout(int, int *, int, int *, int, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@writeout#I#*I#I#S0_#I#I#I#"
+            },
+            {
+                "column" : 5,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 357,
+                "name" : "limitto(int *, float *, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@limitto#*I#*f#I#I#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 368,
+                "name" : "removepatient(float **, int *, int *, int, int, int, int, int, float)",
+                "parent_name" : "",
+                "usr" : "c:@F@removepatient#**f#*I#S2_#I#I#I#I#I#f#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 396,
+                "name" : "removepatient(float **, int *, int *, int *, int, int, int, int, int, float)",
+                "parent_name" : "",
+                "usr" : "c:@F@removepatient#**f#*I#S2_#S2_#I#I#I#I#I#f#"
+            },
+            {
+                "column" : 5,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 428,
+                "name" : "refresh(float **, int *, int *, int *, int, int, int, int, int, float)",
+                "parent_name" : "",
+                "usr" : "c:@F@refresh#**f#*I#S2_#S2_#I#I#I#I#I#f#"
+            },
+            {
+                "column" : 5,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 469,
+                "name" : "compact(float **, int *, int *, int, int, int, int, int, float, float)",
+                "parent_name" : "",
+                "usr" : "c:@F@compact#**f#*I#S2_#I#I#I#I#I#f#f#"
+            },
+            {
+                "column" : 5,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 510,
+                "name" : "compact(float **, float **, int *, int *, int, int, int, int, int, float, float)",
+                "parent_name" : "",
+                "usr" : "c:@F@compact#**f#S0_#*I#S2_#I#I#I#I#I#f#f#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 526,
+                "name" : "cormatrix(float **, float *, int, int, int, int *, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@cormatrix#**f#S1_#I#I#I#*I#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+                "kind" : 6,
+                "line" : 531,
+                "name" : "average(vector<float>)",
+                "parent_name" : "",
+                "usr" : "c:@F@average#$@N@std@C@vector>#f#$@N@std@C@allocator>#f#"
+            }
+        ],
+        "file" : "C:/Users/ggm70409/Documents/Rpackage/bireg/src/util.h",
+        "file_last_write" : 1504272488
+    }
+]

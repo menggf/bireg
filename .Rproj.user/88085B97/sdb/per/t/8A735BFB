@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Package: bireg\nType: Package\nTitle: A tool to predict the transciptional regulation status in part of samples\nVersion: 0.99.0\nAuthor: Guofeng Meng\nMaintainer: Guofeng Meng <menggf@gmail.com>\nDescription: This tool is to predict the co-expression regulation that observed in part of patients\nLicense: GPL-3\nLazyData: TRUE\nSystemRequirements: GNU make\nDependence:\n    R (>3.1.0)\nImports:\n    Rcpp (>= 0.12.7),\n    parallel\nSuggests:\n  knitr\nLinkingTo: Rcpp\nbiocViews: RNAseq\nRoxygenNote: 6.0.1\nNeedsCompilation: yes\nVignetteBuilder: knitr\n",
+    "created" : 1504334738128.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2116017805",
+    "id" : "8A735BFB",
+    "lastKnownWriteTime" : 1504334797,
+    "last_content_update" : 1504334797058,
+    "path" : "~/Rpackage/bireg/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "dcf"
+}
