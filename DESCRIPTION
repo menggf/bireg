@@ -4,7 +4,7 @@ Title: A tool to predict the transciptional regulation status in part of samples
 Version: 0.99.0
 Author: Guofeng Meng
 Maintainer: Guofeng Meng <menggf@gmail.com>
-Description: This tool is to predict the co-expression regulation that observed in part of patients
+Description: This tool is to predict the co-expression regulation
 License: GPL-3
 LazyData: TRUE
 SystemRequirements: GNU make
