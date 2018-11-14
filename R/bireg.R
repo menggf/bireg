@@ -39,7 +39,7 @@ bca <- function( mx, regulators, min.pas=100, min.ges=50, cutoff=0.85, cores=1, 
   print(1)
   output=bcacpp(mx, tfloc, c(min.ges,max.ges, min.pas, 10, cutoff, cores))
   print(2)
-  res=.transform(output)
+  res=.transform(output,patients, genes)
   print(3)
   res[["para"]] <- list(patients=patients, genes=genes, tfloc=tfloc, min.pas=min.pas, min.ges=min.ges, cutoff=cutoff, cores=cores, max.ges=max.ges)
   attr(res, "class") <- "bca"
@@ -106,7 +106,7 @@ extract.modules<-function(bca.obj, expr, mod="max.gene"){
 }
 
 
-.transform<-function(x){
+.transform<-function(x, patients, genes){
   res=list();
   i=1;
   tf="";
@@ -114,11 +114,11 @@ extract.modules<-function(bca.obj, expr, mod="max.gene"){
   nges=vector();
   rr=vector()
   while(1){
-    tf=x[i];
+    tf=genes[x[i]];
     i=i+1;
     n.row=x[i];
     i=i+1;
-    pas=x[i:(i+n.row-1)]  ;
+    pas=patients[x[i:(i+n.row-1)]]  ;
     i= i + n.row;
     nges=x[i:(i+n.row-1)]  ;
     i= i + n.row;
@@ -133,4 +133,5 @@ extract.modules<-function(bca.obj, expr, mod="max.gene"){
   }
   return(res)
 }
+
 
