@@ -71,10 +71,11 @@ Rcpp::NumericVector bcacpp(Rcpp::NumericMatrix exp, Rcpp::IntegerVector tfs, Rcp
 					row[i]=1;
 				}
 			//cout<<left_col<<" "<<has_row<<endl;
-			if(has_row >= max_gene || has_row <  mrow-5 )
+			if(has_row >= max_gene || has_row <  mrow - 5 || (left_col < 0.3 * num_patient  && has_row < 0.5* max_gene) || (left_col < 0.1 * num_patient  && has_row < max_gene))
 				break;
 			
-			mrow=has_row;
+			if(has_row > mrow)
+			  mrow=has_row;
 			int ord[num_gene];
 			for(int i=0;i<num_gene;i++)
 				ord[i]=i;
@@ -91,6 +92,10 @@ Rcpp::NumericVector bcacpp(Rcpp::NumericMatrix exp, Rcpp::IntegerVector tfs, Rcp
 			removepatient(input,removal, used,col, wh, num_patient, num_gene, min_patient, min_gene-1, cutoff); // rank the removed patients
 			
 			int tag=1;
+			if(left_col > 1000)
+			  step= 50;
+		  	else
+		    	  step= 10;
 			for(int ee=1; ee <= step; ee++){ // remove at most "step" patients
 				init(row, num_gene, 0);
 				if(left_col -1 < min_patient){ // reach the min_patients
